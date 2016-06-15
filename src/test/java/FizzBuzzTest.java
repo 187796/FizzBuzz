@@ -26,8 +26,8 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void getResultShouldReturnFizzBuzzIfTheNumberIsDividableBy15(){
-        assertEquals("FizzBuzz",fizzBuzz.getResult(15));
-        assertEquals("FizzBuzz",fizzBuzz.getResult(30));
+    public void getResultShouldReturnFizzBuzzIfTheNumberIsDividableBy15() {
+        assertEquals("FizzBuzz", fizzBuzz.getResult(15));
+        assertEquals("FizzBuzz", fizzBuzz.getResult(30));
     }
 }
