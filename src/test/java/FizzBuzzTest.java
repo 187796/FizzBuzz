@@ -33,8 +33,8 @@ public class FizzBuzzTest {
 
     @Test
     public void getResultShouldReturnTheSameNumberIfNoOtherRequirementIsFulfilled(){
-        assertEquals(1,fizzBuzz.getResult(1));
-        assertEquals(7,fizzBuzz.getResult(7));
-        assertEquals(13,fizzBuzz.getResult(13));
+        assertEquals("1",fizzBuzz.getResult(1));
+        assertEquals("7",fizzBuzz.getResult(7));
+        assertEquals("13",fizzBuzz.getResult(13));
     }
 }
