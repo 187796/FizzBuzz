@@ -11,17 +11,17 @@ public class FizzBuzzTest {
     FizzBuzz fizzBuzz = new FizzBuzz();
 
     @Test
-    public void assertTrue(){
-        assertThat(true,is(true));
+    public void assertTrue() {
+        assertThat(true, is(true));
     }
 
     @Test
-    public void getResultShouldReturnFizzIfNumberIsDividableBy3(){
-        assertEquals("Fizz",fizzBuzz.getResult(3));
+    public void getResultShouldReturnFizzIfNumberIsDividableBy3() {
+        assertEquals("Fizz", fizzBuzz.getResult(3));
     }
 
     @Test
-    public void getResultShouldReturnBuzzIfTheNumberIsDividableBy5(){
-        assertEquals("Buzz",fizzBuzz.getResult(5));
+    public void getResultShouldReturnBuzzIfTheNumberIsDividableBy5() {
+        assertEquals("Buzz", fizzBuzz.getResult(5));
     }
 }
